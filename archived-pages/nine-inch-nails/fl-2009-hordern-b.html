@@ -1,0 +1,1101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!--[if lt IE 7]>  <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="fixed no-js ie ie6 lte9 lte8 lte7"> 		<![endif]-->
+<!--[if IE 7]>     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="fixed no-js ie ie7 lte9 lte8 lte7 gte7"> 	<![endif]-->
+<!--[if IE 8]>     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="fixed no-js ie ie8 lte9 lte8 gte7 gte8"> 	<![endif]-->
+<!--[if IE 9]>     <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="fixed no-js ie ie9 lte9 gte7 gte8 gte9"> 	<![endif]-->
+<!--[if gt IE 9]>  <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="fixed no-js ie gte7 gte8 gte9"> 			<![endif]-->
+<!--[if !IE]><!--> <html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" class="fixed no-js no-ie">            					<!--<![endif]-->
+<head>
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+<title>Nine Inch Nails @ Hordern Pavilion, Sydney (24/02/09) </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQYGU1VRGwIJV1FRDwI="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),u=c.length,f=i(a,o,r),d=0;u>d;d++)c[d].apply(f,n);return f}function a(t,e){u[t]=s(t).concat(e)}function s(t){return u[t]||[]}function c(){return n(e)}var u={};return{on:a,emit:e,create:c,listeners:s,_events:u}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(u){try{r("ierr",[u,(new Date).getTime(),!0])}catch(f){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(u){"stack"in u&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:18,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:18,2:19,ee:"QJf3ax",gos:"7eSDFh"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:19,2:18,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:19,2:18,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),u=s(a),f=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new f(t);try{i.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",[r])}catch(o){}}return e},window.XMLHttpRequest.prototype=f.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:19,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,u="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(u);if(f&&(r.rxSize=f),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,u=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var u=e(o);u&&(r.txSize=u)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var f=0;c>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+u(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:9,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,u="addEventListener",f="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[u]?(c[u]("DOMContentLoaded",o,!1),s[u]("load",n,!1)):(c[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],18:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],19:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,u;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){f([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return u=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,u],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,u(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,u="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,u?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){f([o,e,n,r])}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){f([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function f(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:18,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>
+<meta name="built" content="2015-03-14 16:30:38" />
+<meta name="title" content="Nine Inch Nails @ Hordern Pavilion, Sydney (24/02/09) " />
+<!-- mobile meta (hooray!) -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="description" content="Having lived through some life-changing NIN gigs in the past, it was difficult to enjoy Tuesday for what it was: a stripped-back, no bullshit rock show." />
+<meta name="date"        content="2009-02-27 06:21:53" />
+<link rel="alternate" href="/rss/feed.xml" type="application/rss+xml" title="fasterlouder.com.au Latest" />
+<link rel="home"      href="http://www.fasterlouder.com.au/" />
+<link rel="canonical" href="http://www.fasterlouder.com.au/reviews/events/17237/Nine-Inch-Nails-Hordern-Pavilion-Sydney-240209" />			
+<meta property="og:title" content="Nine Inch Nails @ Hordern Pavilion, Sydney (24/02/09) " />
+<meta property="og:type" content="article"/><meta property="og:url" content="http://www.fasterlouder.com.au/reviews/events/17237/Nine-Inch-Nails-Hordern-Pavilion-Sydney-240209"/>
+<meta property="og:image" content="http://ic.f.tsatic-cdn.net/487/600_600/d24cf_487899.jpg"/>
+<meta property="og:site_name" content="FasterLouder"/>
+<meta property="fb:app_id" content="151011644939675"/>    
+<!-- Combined Core CSS -->
+<link rel="stylesheet" href="http://c.f.tsatic-cdn.net/185/combined/258b0555dd31dc9c1732316996f83223.css" type="text/css" />	
+<!-- // Combined Core CSS -->
+<link rel="stylesheet" href="http://c.f.tsatic-cdn.net/185/modules/articles.css" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js" type="text/javascript" ></script>
+<script type="text/javascript">jQuery.noConflict();</script>
+<script src="http://j.f.tsatic-cdn.net/185/combined/f9e468f411ca3f46a890ac36528abb81.js" type="text/javascript" ></script>
+<script src="http://j.f.tsatic-cdn.net/185/global/initcore.js" type="text/javascript"></script>
+<script src="http://j.f.tsatic-cdn.net/185/combined/454d055b4c1e0751727d4fdc9581398a.js" type="text/javascript" ></script>
+<script src="http://j.f.tsatic-cdn.net/185/modules/articles.js" type="text/javascript"></script>
+<script type="text/javascript">
+        streamAnalyticsPrefix = document.jsItemID;
+    </script>
+</head>
+<body class="format-standard" id="articles-reviews_gigs">
+<div id="container">
+<span id="advert-interstitial-1" class="advert advert-interstitial"  title="640x480,990x40"></span>
+<div id="site">
+<div id="site-header" class="clearfix">
+<span id="site-logo"><a href="http://www.fasterlouder.com.au/">Australia's leading independent live music hub. Stock up on music and tour news, reviews, gig photos and idle gossip, or bitch to your heart's content in the forums.</a></span>
+<div id="site-tools">
+<div id="user-menu-wrap" class="site-tool">
+
+<ul id="user-menu" class="menu menu-1">
+<li id="user-menu-register" class="first menu-blue">
+<a href="/signup"><span>Register</span></a>
+</li>
+<li id="user-menu-login" class="last menu-blue">
+<a class="open-login-modal" href="/login"><span>Login</span></a>
+</li>
+</ul>	
+</div>
+<div id="manage-menu-wrap" class="site-tool">
+
+
+</div>
+</div>
+<div id="site-social">
+<a href="http://twitter.com/FasterLouder" target="_blank">Twitter</a>
+<a href="http://www.facebook.com/FasterLouder" target="_blank" class="facebook">Facebook</a>
+</div>
+<div id="site-search" class="site-tool">
+<form id="site-search-form" action="http://www.fasterlouder.com.au/search" method="get">
+<input type="text" name="q" value="" />
+<button type="submit" value="Search">Search</button>
+</form></div>
+<span id="advert-leaderboard-1" class="advert advert-leaderboard"  title="728x90,960x150,970x250,960x250"></span>
+<div id="site-menu-wrap" class="clearfix">
+<!-- Site Menu -->
+<ul id="site-menu" class="menu menu-1 menu-show-hover">
+<!-- Articles Menu -->
+<li id="site-menu-music" class="parent first child-standard ">
+<a href="http://www.fasterlouder.com.au/news"><span>Music</span><em>&gt;</em></a>
+<!-- Articles Sub Menu -->
+<ul class="menu menu-sub menu-2">
+<li id="site-menu-articles-news-australia">
+<a href="http://www.fasterlouder.com.au/news"><span>Local News</span></a>
+</li>
+<li id="site-menu-articles-news-international">
+<a href="http://www.fasterlouder.com.au/news/intl"><span>International News</span></a>
+</li>
+</ul>
+</li>
+<!-- Features Menu -->
+<li id="site-menu-features" class="parent first child-standard ">
+<a href="http://www.fasterlouder.com.au/features"><span>Features</span><em>&gt;</em></a>
+</li>
+<!-- Opinions -->
+<li id="site-menu-opinions" class="parent first child-standard ">
+<a href="http://www.fasterlouder.com.au/opinions"><span>Opinions</span><em>&gt;</em></a>
+</li>
+<!-- Reviews Menu -->
+<li id="site-menu-reviews" class="parent first child-standard ">
+<a href="http://www.fasterlouder.com.au/reviews/music"><span>Reviews</span><em>&gt;</em></a>
+<!-- Reviews Sub Menu -->
+<ul class="menu menu-sub menu-2">
+<li id="site-menu-articles-musicreviews">
+<a href="http://www.fasterlouder.com.au/reviews/music"><span>Music Reviews</span></a>
+</li>
+<li id="site-menu-articles-gigreviews">
+<a href="http://www.fasterlouder.com.au/reviews/events"><span>Gig Reviews</span></a>
+</li>
+</ul>
+</li>
+<!-- Photos Menu -->
+<li id="site-menu-photos" class="parent child-standard ">
+<a href="http://www.fasterlouder.com.au/gallery"><span>Photos</span><em>&gt;</em></a>
+<!-- Photos Sub Menu -->
+<ul class="menu menu-sub menu-2">
+<li id="site-menu-photos-snap" class="first">
+<a href="http://www.fasterlouder.com.au/gallery/snapshot"><span>Snapshot!</span></a>
+</li>
+<li id="site-menu-photos-sydney">
+<a href="http://www.fasterlouder.com.au/gallery/sydney"><span>Sydney</span></a>
+</li>
+<li id="site-menu-photos-melbourne">
+<a href="http://www.fasterlouder.com.au/gallery/melbourne"><span>Melbourne</span></a>
+</li>
+<li id="site-menu-photos-canberra">
+<a href="http://www.fasterlouder.com.au/gallery/canberra"><span>Canberra</span></a>
+</li>
+<li id="site-menu-photos-brisbane">
+<a href="http://www.fasterlouder.com.au/gallery/brisbane_gold_coast"><span>Brisbane / Gold Coast</span></a>
+</li>
+<li id="site-menu-photos-adelaide">
+<a href="http://www.fasterlouder.com.au/gallery/adelaide"><span>Adelaide</span></a>
+</li>
+<li id="site-menu-photos-perth" class="last">
+<a href="http://www.fasterlouder.com.au/gallery/perth"><span>Perth</span></a>
+</li>
+</ul>
+</li>
+<!-- Festivals Menu -->
+<li id="site-menu-festivals" class="parent first child-standard ">
+<a href="http://www.fasterlouder.com.au/festivals"><span>Festivals</span><em>&gt;</em></a>
+<!-- Festivals Sub Menu -->
+<ul class="menu menu-sub menu-2">
+<li id="site-menu-festivals-sydney" class="first">
+<a href="http://www.fasterlouder.com.au/festivals/sydney"><span>Sydney</span></a>
+</li>
+<li id="site-menu-festivals-melbourne">
+<a href="http://www.fasterlouder.com.au/festivals/melbourne"><span>Melbourne</span></a>
+</li>
+<li id="site-menu-festivals-canberra">
+<a href="http://www.fasterlouder.com.au/festivals/canberra"><span>Canberra</span></a>
+</li>
+<li id="site-menu-festivals-adelaide">
+<a href="http://www.fasterlouder.com.au/festivals/adelaide"><span>Adelaide</span></a>
+</li>
+<li id="site-menu-festivals-brisbane">
+<a href="http://www.fasterlouder.com.au/festivals/brisbane_gold_coast"><span>Brisbane / Gold Coast</span></a>
+</li>
+<li id="site-menu-festivals-perth">
+<a href="http://www.fasterlouder.com.au/festivals/perth"><span>Perth</span></a>
+</li>
+</ul>		
+</li>
+<!-- Forum Menu -->
+<li id="site-menu-forum" class="parent child-standard ">
+<a href="http://www.fasterlouder.com.au/forum"><span>Forums</span><em>&gt;</em></a>
+<!-- Forum Sub Menu -->
+<ul class="menu menu-sub menu-2">
+<li id="site-menu-forum-askfasterlouder" class="first">
+<a href="http://www.fasterlouder.com.au/forum/forumdisplay.php?f=20"><span>Ask FasterLouder</span></a>
+</li>
+<li id="site-menu-forum-buysell">
+<a href="http://www.fasterlouder.com.au/forum/forumdisplay.php?f=17"><span>Buying Selling</span></a>
+</li>
+<li id="site-menu-forum-musosconnection">
+<a href="http://www.fasterlouder.com.au/forum/forumdisplay.php?f=16"><span>Musos Connection</span></a>
+</li>
+<li id="site-menu-forum-aboutthemusic">
+<a href="http://www.fasterlouder.com.au/forum/forumdisplay.php?f=21"><span>About the Music</span></a>
+</li>
+<li id="site-menu-forum-generalchat">
+<a href="http://www.fasterlouder.com.au/forum/forumdisplay.php?f=10"><span>General Chat</span></a>
+</li>
+<li id="site-menu-forum-bigdayout">
+<a href="http://www.fasterlouder.com.au/forum/forumdisplay.php?f=153"><span>Big Day Out</span></a>
+</li>
+<li id="site-menu-forum-laneway">
+<a href="http://www.fasterlouder.com.au/forum/forumdisplay.php?f=126"><span>Laneway Festival</span></a>
+</li>
+<li id="site-menu-forum-splendour" class="last">
+<a href="http://www.fasterlouder.com.au/forum/forumdisplay.php?f=104"><span>Splendour in the Grass</span></a>
+</li>
+</ul>
+</li>	
+<!-- Win -->
+<li id="site-menu-win" class="parent child-standard ">
+<a href="http://www.fasterlouder.com.au/competitions"><span>Win</span><em>&gt;</em></a>
+<!-- Win Sub Menu -->
+<ul class="menu menu-sub menu-2">
+<li id="site-menu-win-opencompetitions" class="first">
+<a href="http://www.fasterlouder.com.au/competitions"><span>Open Competitions</span></a>
+</li>
+<li id="site-menu-music-winnerslist" class="last">
+<a href="http://www.fasterlouder.com.au/competitions/winnerslist"><span>Winners List</span></a>
+</li>
+</ul>
+</li>
+</ul></div>
+
+<div id="site-hotbar">
+<div class="customScrollBox">
+<div class="horWrapper"> 
+<div id="scrollMe" class="container">
+<div class="content">
+<ul class="hotbar-articles">
+<li class="hotbar-item">
+<a href="/news/41933/The-first-confirmation-for-Splendour-in-the-Grass-2015-lineup">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/a1672_1329244.jpg"  alt="The first confirmation for Splendour in the Grass 2015 lineup?" title="The first confirmation for Splendour in the Grass 2015 lineup?" width="128" height="80" /></span>
+<span class="hotbar-item-title">The first confirmation for Splendour in the Grass 2015 lineup?</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41976/Watch-Hiatus-Kaiyotes-soulful-Gorillaz-cover-on-triple-js-Like-A-Version">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/485f0_1329506.jpg"  alt="Watch: Hiatus Kaiyote's soulful Gorillaz cover on triple j's Like A Version" title="Watch: Hiatus Kaiyote's soulful Gorillaz cover on triple j's Like A Version" width="128" height="80" /></span>
+<span class="hotbar-item-title">Watch: Hiatus Kaiyote's soulful Gorillaz cover on triple j's Like A Version</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41974/Soundwave-2016-will-be-one-day-east-coast-only-festival">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/397c1_1329503.jpg"  alt="Soundwave 2016 will be one-day east coast only festival" title="Soundwave 2016 will be one-day east coast only festival" width="128" height="80" /></span>
+<span class="hotbar-item-title">Soundwave 2016 will be one-day east coast only festival</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/features/41921/Marilyn-Manson-Im-somewhere-between-a-peacock-and-a-panther">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/6822b_1329234.jpg"  alt="Marilyn Manson: “I'm somewhere between a peacock and a panther”" title="Marilyn Manson: “I'm somewhere between a peacock and a panther”" width="128" height="80" /></span>
+<span class="hotbar-item-title">Marilyn Manson: “I'm somewhere between a peacock and a panther”</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41961/A-crazybrave-man-is-torturing-himself-with-168-hours-of-Nickelback-for-charity">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/f81e8_1329460.jpg"  alt="A crazy/brave man is torturing himself with 168 hours of Nickelback for charity" title="A crazy/brave man is torturing himself with 168 hours of Nickelback for charity" width="128" height="80" /></span>
+<span class="hotbar-item-title">A crazy/brave man is torturing himself with 168 hours of Nickelback for charity</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41954/Youll-Never-Forget-Your-First-Pearls">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/f3600_1329384.jpg"  alt="You'll Never Forget Your First: Pearls" title="You'll Never Forget Your First: Pearls" width="128" height="80" /></span>
+<span class="hotbar-item-title">You'll Never Forget Your First: Pearls</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41762/Does-the-Fuji-Rock-lineup-offer-any-clues-for-Splendour-in-the-Grass-2015">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1327/128_80/97ac7_1327859.jpg"  alt="Does the Fuji Rock lineup offer any clues for Splendour in the Grass 2015?" title="Does the Fuji Rock lineup offer any clues for Splendour in the Grass 2015?" width="128" height="80" /></span>
+<span class="hotbar-item-title">Does the Fuji Rock lineup offer any clues for Splendour in the Grass 2015?</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41953/Vance-Joy-on-Taylor-Swift-Hottest-100-and-his-old-mate-Chet-Faker">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/36396_1329371.jpg"  alt="Vance Joy on Taylor Swift, Hottest 100  and his old mate Chet Faker" title="Vance Joy on Taylor Swift, Hottest 100  and his old mate Chet Faker" width="128" height="80" /></span>
+<span class="hotbar-item-title">Vance Joy on Taylor Swift, Hottest 100  and his old mate Chet Faker</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/features/41920/The-untold-story-of-Lordes-first-ever-Australian-tour">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/1fcf7_1329246.jpg"  alt="The untold story of Lorde’s first ever Australian tour" title="The untold story of Lorde’s first ever Australian tour" width="128" height="80" /></span>
+<span class="hotbar-item-title">The untold story of Lorde’s first ever Australian tour</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41911/Waynes-World-returns-for-SNLs-40th-anniversary-party">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/29f7a_1329184.jpg"  alt="Wayne's World returns for SNL’s 40th anniversary party" title="Wayne's World returns for SNL’s 40th anniversary party" width="128" height="80" /></span>
+<span class="hotbar-item-title">Wayne's World returns for SNL’s 40th anniversary party</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41903/The-Vines-Craig-Nicholls-goes-electro-pop-on-new-side-project-White-Shadows">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/132fa_1329170.jpg"  alt="The Vines’ Craig Nicholls goes electro-pop on new side project White Shadows" title="The Vines’ Craig Nicholls goes electro-pop on new side project White Shadows" width="128" height="80" /></span>
+<span class="hotbar-item-title">The Vines’ Craig Nicholls goes electro-pop on new side project White Shadows</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41900/Faith-No-Mores-Roddy-Bottum-The-new-album-goes-back-to-our-roots">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/c475f_1329167.jpg"  alt="Faith No More’s Roddy Bottum: “The new album goes back to our roots”" title="Faith No More’s Roddy Bottum: “The new album goes back to our roots”" width="128" height="80" /></span>
+<span class="hotbar-item-title">Faith No More’s Roddy Bottum: “The new album goes back to our roots”</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/features/41883/St-Vincent-This-isnt-drugs-sex-fuck-drugs-party-land">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1329/128_80/8fcf1_1329056.jpg"  alt="St Vincent: “This isn't drugs-sex-fuck-drugs party land”" title="St Vincent: “This isn't drugs-sex-fuck-drugs party land”" width="128" height="80" /></span>
+<span class="hotbar-item-title">St Vincent: “This isn't drugs-sex-fuck-drugs party land”</span>
+</a>
+</li>	
+<li class="hotbar-item">
+<a href="/news/41860/8-reasons-Guy-Sebastian-wasnt-the-best-choice-for-Eurovision-2015">
+<span class="hotbar-item-image"><img src="http://ic.f.tsatic-cdn.net/1331/128_80/c8b88_1331653.jpg"  alt="8 reasons Guy Sebastian wasn't the best choice for Eurovision 2015" title="8 reasons Guy Sebastian wasn't the best choice for Eurovision 2015" width="128" height="80" /></span>
+<span class="hotbar-item-title">8 reasons Guy Sebastian wasn't the best choice for Eurovision 2015</span>
+</a>
+</li>	
+</ul>
+</div>	
+</div>
+<div class="dragger_container">
+<div class="dragger"></div>
+</div>
+</div>
+</div>
+<a href="#" id="scroll-left"><img src="http://www.fasterlouder.com.au/_images/comps/icons/hotbar_arrow_left.gif" alt="scroll left" /></a> 
+<a href="#" id="scroll-right"><img src="http://www.fasterlouder.com.au/_images/comps/icons/hotbar_arrow_right.gif" alt="scroll right" /></a>
+</div>
+</div>
+<div id="site-content" class="clearfix">
+<div id="layout_5">
+<div class="grouping articles ">
+<!-- Content -->
+<div id="content" class="clearfix" itemscope itemtype ="http://schema.org/Article">
+<div id="statsArea" class="hidden"></div>
+<div id="article-details"  class="article-details-page-one">
+<div id="section-about-the-author" class="section clearfix  ">
+<div class="section-header   clearfix">
+<h2 >About the Author</h2>	
+</div>
+<div class="section-content clearfix ">
+<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+<a id="15696" class="author-avatar infocard-trigger infocard-user-trigger"  href="/people/angy">
+<img src="http://ic.f.tsatic-cdn.net/7/50_50/3cb52_7032.jpg"  title=" " alt=" " width="50" height="50" />
+</a>
+<h4>by <a href="/people/angy" itemprop="url" ><span itemprop="name"> </span></a></h4>
+<p><a href="/people/angy/portfolio/articles/">view my other 339 articles</a></p>
+</span>
+</div>
+</div>
+</div>				
+<div class="content-text articleText  content-text-page-one">
+<!-- Display Article Heading on first page -->
+<span id="lead-heading">
+<img src="http://ic.f.tsatic-cdn.net/487/635_340/fef63_487899.jpg"  title="Nine Inch Nails @ Hordern Pavilion, Sydney (24/02/09) " alt="Image for Nine Inch Nails @ Hordern Pavilion, Sydney (24/02/09) " width="635" height="340" />		
+<span class="content-grouper">
+<h1>
+<span class="lead-title-wrapper">
+<span class="lead-title-background" itemprop="name">
+Nine Inch Nails @ Hordern</span></span><span class='lead-title-wrapper'><span class='lead-title-background'>Pavilion, Sydney (24/02/09) 								
+</span>
+</span>	
+</h1>	
+</span>							
+</span>	
+<div class="content-date">
+
+<div class="article-stat">
+<meta itemprop="interactionCount" content="UserComments:21"/>
+<meta itemprop="interactionCount" content="UserLikes:5" />
+<meta itemprop="interactionCount" content="UserPageVisits:1468" />
+<ul>
+<li title="Comments" class="comment">21</li>
+<li title="Article Views" class="views">2936</li>
+</ul>
+</div>
+<h5>
+<meta name="DC.date.issued" content="2009-02-27T06:21:00+00:00">
+<strong itemprop="datePublished" >Fri 27th Feb, 2009</strong>
+in <a href="http://www.fasterlouder.com.au/reviews/events">Event Reviews</a>
+</h5>
+</div>
+<div class="section-social clearfix">
+<div class="social-facebook">
+<fb:like href="http://www.fasterlouder.com.au/reviews/events/17237/Nine-Inch-Nails-Hordern-Pavilion-Sydney-240209" send="false" layout="button_count" width="90" show_faces="false" font="arial"></fb:like>
+</div>
+<div class="social-radiumone pw-widget pw-counter-horizontal">
+<a class="pw-button-facebook pw-look-native"></a>
+<a class="pw-button-twitter pw-look-native"></a>
+<a class="pw-button-reddit pw-look-native"></a>
+<a class="pw-button-post-share"></a>
+<a class="pw-button-email pw-look-native"></a>
+</div>
+</div>
+<div itemprop="articleBody">
+<p><a href="http://www.fasterlouder.com.au/gallery/9784/Nine-Inch-Nails.htm" target="_blank"><strong>CHECK OUT THE PHOTOS FROM THE SHOW HERE.</strong></a></p>
+<p>One of my mates shared an interesting story with me on Tuesday night that illustrates just how much excitement usually revolves around a <strong>Nine Inch Nails</strong> tour, and the impact that <strong>Trent Reznor</strong> continues to have on his many fans. Flying home from a work excursion in the Gold Coast over the weekend, she spotted a guy sitting near her wearing a wristband from the <strong>Soundwave</strong> festival. Asking if he was involved with the tour, he replied no, but he <em>was</em> flying round the country for all the shows. Somewhat puzzled, naturally her next question was &#8220;Why?&#8221; In response he pulled down his lower lip &#8211; revealing a NIN tattoo <em>inside his mouth</em>. He&#8217;d already seen them play 12 times, and every time they venture out to Australia he flies around the country to catch every last show on the tour. How&#8217;s that for dedication?</p>
+<p>Unfortunately, this excitement can sometimes mean that attending their gigs is burdened with the sort of history and expectations that accompanies being obsessed with the band in question for over 15 years. Sadly, this was kinda the case for me and it probably prevented me from enjoying the show to its utmost. Having lived through some life-changing NIN gigs in the past, it was difficult to enjoy Tuesday for what it was &#8211; a stripped-back, no-bullshit rock show. Oh, and there was that incident with the power short-out that plunged the Hordern into silence for nearly an hour. No shit.   </p>
+<p>Kicking off with the piano prologue of <em>The Fragile</em> as the band took their position on the stage, they warmed into <em>The Wretched</em> to get things started in a simmering fashion, nicely subdued and understated. That was until the song reached its guitar-heavy chorus &#8211; and we were bombarded with one of the most over the top, epilepsy-inducing lights shows I&#8217;ve ever witnessed at a rock gig.</p>
+<p>There were panels of strobes strapped across the ceiling above the band, blinding shafts of bright white flanking them on either side, and panels of white lights directly behind them. Next they moved into the harsh, industrial rock sounds of <em>Wish</em>, taken from Reznor&#8217;s most heavy and hardcore release <em>Broken</em> back in the dawn of the &#8211; œ90s, and it was clear this was all about the rock. Yeah, it was an orgy of light, but the most interesting thing about the spectacle was that as blinding as it was, thematically it still matched perfectly with the stripped-back &#8211; œrock band&#8217; feel of the show.</p>
+<p>Nine Inch Nails sound as great as ever. Trent is one hell of a polished frontman, and he&#8217;s surrounded himself with a backing band of solid performers, no question. But for me it lacked the mind-numbing impact of the band&#8217;s 2007 tour, where a studio-perfect performance was complimented some amazing technology. Who could forget that ridiculous LED visual strip screen that rose and fell behind the band during the show, rendering the exact sort of eerie, sinister visuals we&#8217;ve come to associate with the NIN legacy? What about when they cut the guitars and jumped behind their keyboards and laptops to perform several of the screechy electronic pieces from <em>Year Zero</em>, the three remaining members flanked by several towering, wobbly green columns of light behind them on the screen? The &#8211; œLights in the Sky&#8217; tour that crossed America last year looked even more of a mind-boggling fusion of art and sound, but maybe it was a bit too optimistic to hope we&#8217;d get that in Oz. </p>
+<p>Regrets aside, it still delivered everything you&#8217;d ask of a big show. The heavier, more direct material was shelved for the moment in favour of the deeper, darker numbers like <em>Meet Your Master</em> (showing again how flawlessly everything from <em>Year Zero</em> translates to the stage), and there was a real sense they were building to something. Then things went haywire. The introductory industrial noise of <em>Burn</em> gave way to darkness and silence after a few seconds, with only the sounds of the lonely drummer left to fill the massive venue before he also realised what was going on, and halted too. It was clear the epic lighting rig had proved a little too much for the Hordern&#8217;s power supply. Nothing changed for the next 45 minutes (beyond Trent occasionally jumping on a megaphone to try and communicate with the surprisingly tolerant crowd), until finally a techie jumped on the restored mic. &#8220;Who&#8217;s ready for round 2? The boys wanted me to tell you that it&#8217;s <em>not their fault</em>.&#8221;       </p>
+<p>&#8220;I don&#8217;t know what happened there,&#8221; Trent told the crowd. &#8220;But we&#8217;re not planning on playing for one second shorter than we did before.&#8221; The band launched back into it and poured their heart and soul into to the rest of the performance; but they couldn&#8217;t quite get the energy levels back where it&#8217;d been before the lights went out. That didn&#8217;t mean they weren&#8217;t gonna reach for the same levels of intensity &#8211; if you listen to <em>Survivor</em> on record it&#8217;s a glitchy electro/rock spazout number, but on Tuesday night it was stripped back to the barebones, thrashing metal to the core. That shit was heavy. But the crowd&#8217;s euphoria only really returned when they whipped out the anthemic <em>Hand That Feeds</em> and <em>Head Like A Hole</em>.  Before the band had even reached the end of the song the house lights came on, suggesting that even though we&#8217;d been robbed of an encore, by 11.45pm the venue was probably pushing them off stage so they could pack up and go home.   </p>
+<p>Going on my past encounters with NIN, on Tuesday night I was expecting an artful synthesis of the audio and the visual, something that captured the conceptual complexity of the last few Nine Inch Nails albums and engaged the audience on every level. Instead, what we got a rock show that kicked you right in the nuts. No one&#8217;s gonna argue that getting kicked in the nuts isn&#8217;t a worthwhile (and memorable) way of spending an evening, but you know Trent&#8217;s capable of reaching a little higher.</p>
+</div>
+<div class="section-social clearfix">
+<div class="social-facebook">
+<fb:like href="http://www.fasterlouder.com.au/reviews/events/17237/Nine-Inch-Nails-Hordern-Pavilion-Sydney-240209" send="false" layout="button_count" width="90" show_faces="false" font="arial"></fb:like>
+</div>
+<div class="social-radiumone pw-widget pw-counter-horizontal">
+<a class="pw-button-facebook pw-look-native"></a>
+<a class="pw-button-twitter pw-look-native"></a>
+<a class="pw-button-reddit pw-look-native"></a>
+<a class="pw-button-post-share"></a>
+<a class="pw-button-email pw-look-native"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="content-article-btm">
+<div id="section-allabout" class="section clearfix  section-related">
+<div class="section-header   clearfix">
+<h2 >All About</h2>	
+</div>
+<div class="section-content clearfix ">
+<ul id="allAboutContext" class="item-list-inline alertEvents clearfix">
+<li  class="artist item "><a href="/allabout/artist/53/Nine_Inch_Nails">Nine Inch Nails</a><span class="item-delimiter">&nbsp;&#8226;</span></li>					
+<li  class="venue item "><a href="/allabout/venue/24/Hordern_Pavilion">Hordern Pavilion</a><span class="item-delimiter">&nbsp;&#8226;</span></li>					
+<li  class="eventname item "><a href="/allabout/eventname/8275/Soundwave_Festival">Soundwave Festival</a></li>					
+</ul>
+<span class="description">Follow your favourites to get news &amp; event alerts</span>	<span title="Follow" id="service-link-send-updates" class="service-link service-link-action button-sprite button-follow"><span class="symbol symbol-plus">+</span>Follow</span>		
+<div id="all-about-alerts-modal">
+<h4>Add Follows</h4>
+<p>
+Stay informed about your favourite artists and events. We'll email you whenever there is new events, news or content posted about your favourite things. Simply select those you want to be notified about
+<span class="links">
+<a href="/people//iheart/allabout" class="viewAlerts">View my Follows</a>&nbsp;|&nbsp;
+<a href="http://my.fasterlouder.com.au/edit-details" class="alertSettings">Follow Settings</a>
+</span>
+</p>
+<ul>
+<li id="53" class="artist item add-alert"><span class="alertcheckBox"><input type="checkbox" class="53" name="artist" /></span><strong>Nine Inch Nails</strong></li>					
+<li id="24" class="venue item add-alert"><span class="alertcheckBox"><input type="checkbox" class="24" name="venue" /></span><strong>Hordern Pavilion</strong></li>					
+<li id="8275" class="eventname item add-alert"><span class="alertcheckBox"><input type="checkbox" class="8275" name="eventname" /></span><strong>Soundwave Festival</strong></li>					
+</ul>
+<span class="simplemodal-close service-link-button">Cancel</span>
+<span id="service-link-finish-updates" class="service-link service-link-button">Finish</span>
+</div>	 
+</div>
+</div>
+</div>
+<!-- Comments -->
+<div id="section-comments" class="section clearfix  clearfix">
+<div class="section-header   clearfix">
+<h2 >Comments</h2>	
+</div>
+<div class="section-content clearfix ">
+
+<div id="comments-reply">
+<div id="comments-reply-logged-out" class="clearfix comments-box">
+<img src="http://1.i.f.tsatic.net/default/placeholder.jpg"  class="profilePic" alt="www.fasterlouder.com.au" title="www.fasterlouder.com.au" width="70" height="70" />
+<span class="symbol symbol-arrow-left arrow-outer"><span class="arrow-inner">arrow left</span></span>		
+<div class="login-options login-mini">
+<div class="login-option login-site">
+<h6>To post a comment, you need to be logged in.</h6>	<p>
+If you've already registered <a href="/login" onclick="loginModal(); return false;">login now</a>, 
+otherwise <a href="/signup">create a new account</a> now.</p>
+</p>
+</div>			<div class="login-facebook login-option">
+<h6>Facebook member?</h6>
+<p>You can use your Facebook account to sign up and log in to FasterLouder.</p>
+<div id="fb-button"><a class="fb-connect" href="http://www.fasterlouder.com.au/login/external/facebook?url=http://www.fasterlouder.com.au/esi/0s/content/article/addComment">Facebook Connect</a></div> 
+</div>		
+</div>	</div>		
+</div>
+<div id="comments-message">
+<span><a class="comment-add-another" href="#">Add Another</a> | <a href="http://www.fasterlouder.com.au/forum/showthread.php?t=21364">View all the comments in forum &#187;</a></span>
+<strong class="comment-post-result"></strong>
+</div>
+<div id="comments-posts">
+<div id="forum-thread-id">21364</div>
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/littlebluebubble" rel="31944"><img data-original="http://ic.f.tsatic-cdn.net/672/75_75/fb406_672009.jpg" alt="littlebluebubble" title="littlebluebubble" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/littlebluebubble" rel="31944"><span class="poster-name">littlebluebubble</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360415">0</button></a></h3>	
+<p >Survivor? Try Survivalism. </p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><img data-original="http://1.i.f.tsatic.net/default/placeholder.jpg" alt="Stebby" title="Stebby" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><span class="poster-name">Stebby</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360452">0</button></a></h3>	
+<p >Odd. I wasn't there...but everything I've read suggested that the band practically blew everyone away once the power came back on...as if the break had really re-energised them. This review is the first statement to the contrary I've seen... :s<br />
+<br />
+And lolz@survivor.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/saimagizzle" rel="10186"><img data-original="http://1.i.f.tsatic.net/default/placeholder.jpg" alt="saimagizzle" title="saimagizzle" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/saimagizzle" rel="10186"><span class="poster-name">saimagizzle</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360455">0</button></a></h3>	
+<p >I was there and can say that they melted faces after they came back out. Trent was smashing keyboards even before the power outage happened, and the crowd from where I was (right up the back of the rear seats watching everyone and everything) were into it twice as much when they came out again.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><img data-original="http://ic.f.tsatic-cdn.net/1313/75_75/7d942_1313114.jpg" alt="Napoleon Solo" title="Napoleon Solo" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><span class="poster-name">Napoleon Solo</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360458">0</button></a></h3>	
+<p >Odd. I wasn't there...but everything I've read suggested that the band practically blew everyone away once the power came back on...as if the break had really re-energised them. This review is the first statement to the contrary I've seen... :s<br />
+<br />
+And lolz@survivor.<br />
+<br />
+lolz@pedantic fanboys.<br />
+The feedback I have gotten was that quite a few people were peeved that it was virtually the same set as Soundwave and also they missed out on the Dead Souls and Hurt, encore.<br />
+Not to mention the 45 minutes of air.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Braveheart81" rel="32447"><img data-original="http://ic.f.tsatic-cdn.net/1128/75_75/d7854_1128171.jpg" alt="Braveheart81" title="Braveheart81" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Braveheart81" rel="32447"><span class="poster-name">Braveheart81</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360461">0</button></a></h3>	
+<p >The most tragic thing about the power outage was that the bars couldn't operate their cash registers therefore no more beer!<br />
+<br />
+The 45 interlude wouldn't have been a problem if I'd been able to drink.<br />
+<br />
+I definitely don't think NIN were flat after the break though. Whilst I probably enjoyed them a bit more at Luna Park in early 2007, I thought they played a great show. I was sorely dissapointed to miss out on Dead Souls and Hurt though, but I'm pretty sure The Hordern pulled the plug on them.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><img data-original="http://1.i.f.tsatic.net/default/placeholder.jpg" alt="Stebby" title="Stebby" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><span class="poster-name">Stebby</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360474">0</button></a></h3>	
+<p >lolz@pedantic fanboys.<br />
+The feedback I have gotten was that quite a few people were peeved that it was virtually the same set as Soundwave and also they missed out on the Dead Souls and Hurt, encore.<br />
+Not to mention the 45 minutes of air.<br />
+<br />
+Meh. Just stating what I'd read. <br />
+<br />
+Plus I'm quickly learning to be skeptical of reviews on this site, since they so often get simple details wrong...to the point that I sometimes wonder if the reviewer was even there.<br />
+<br />
+(not saying it's the case with this review...but little things like not being able to get the name of the band's biggest single of the past few years right (while claiming to be a fan)...well it raises an eyebrow...)</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><img data-original="http://ic.f.tsatic-cdn.net/1313/75_75/7d942_1313114.jpg" alt="Napoleon Solo" title="Napoleon Solo" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><span class="poster-name">Napoleon Solo</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360483">0</button></a></h3>	
+<p >Meh. Just stating what I'd read. <br />
+<br />
+Plus I'm quickly learning to be skeptical of reviews on this site, since they so often get simple details wrong...to the point that I sometimes wonder if the reviewer was even there.<br />
+<br />
+(not saying it's the case with this review...but little things like not being able to get the name of the band's biggest single of the past few years right (while claiming to be a fan)...well it raises an eyebrow...)<br />
+<br />
+I didn't even know it was released as a single, then again I am of the belief that NIN hasn't released a decent album since The Fragile. Getting a song name confused isn't a cardinal sin and I am sure the writer will ammend the error so you can get some sleep tonight.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/icutmyownhair" rel="4774"><img data-original="http://ic.f.tsatic-cdn.net/845/75_75/641cf_845541.jpg" alt="icutmyownhair" title="icutmyownhair" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/icutmyownhair" rel="4774"><span class="poster-name">icutmyownhair</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360484">0</button></a></h3>	
+<p >Meh. Just stating what I'd read. <br />
+<br />
+Plus I'm quickly learning to be skeptical of reviews on this site, since they so often get simple details wrong...to the point that I sometimes wonder if the reviewer was even there.<br />
+<br />
+(not saying it's the case with this review...but little things like not being able to get the name of the band's biggest single of the past few years right (while claiming to be a fan)...well it raises an eyebrow...)<br />
+<br />
+Oh for fuck's sake, this kind off shit really grinds my gears.  Stop being a godamn pedant.  I think you�re splitting hairs.  It�s a fucking typo. Shit happens,patricularly when you�re writing the review post gig or trying to sneakily write a few paragraphs at work when the boss isn�t watching in order to get it uploaded as quickly as possible.  It�s obvious the dude knows what he�s writing about.<br />
+<br />
+Survivalism is their biggest single of the last few years?  That�s news to me...and probably to every bona fide NIN fan.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><img data-original="http://1.i.f.tsatic.net/default/placeholder.jpg" alt="Stebby" title="Stebby" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><span class="poster-name">Stebby</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360496">0</button></a></h3>	
+<p >Oh for fuck's sake, this kind off shit really grinds my gears.  Stop being a godamn pedant.  I think you�re splitting hairs.  It�s a fucking typo. Shit happens,patricularly when you�re writing the review post gig or trying to sneakily write a few paragraphs at work when the boss isn�t watching in order to get it uploaded as quickly as possible.  It�s obvious the dude knows what he�s writing about.<br />
+<br />
+Survivalism is their biggest single of the last few years?  That�s news to me...and probably to every bona fide NIN fan.<br />
+<br />
+That grinds your gears?<br />
+<br />
+Shit mate, you need to unwind a bit if that gets you going. Go get laid or something.<br />
+<br />
+Initially I only said "lolz@survivor", yes it amused me. Not pendantic at all, just an aside giggle at getting the name wrong (much as I would if someone referred to the classic John Lennon song, Imagination). Sorry you got your panties in a twist over it. Oh and yes it is their biggest single of the past few years. And yes it RAISES AN EYEBROW. Hardly excessive is it. After reading reviews such as The Prodigy's Melbourne show in which the Sydney setlist was reviewed...or even the other NIN review in which apparently the highlight was the song that wasn't even played...I feel it's fair to say I will be overly critical from now on and skeptical that some reviewers are just bullshitting.<br />
+<br />
+HOWEVER I already stated that it isn't the case here.<br />
+<br />
+My main note was the differing opinion in regards to how the band were following the 45min break, which I simply referred to as odd (didn't say he was wrong).<br />
+<br />
+Everyone is so wound up here. Cheer up, guys.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><img data-original="http://ic.f.tsatic-cdn.net/1313/75_75/7d942_1313114.jpg" alt="Napoleon Solo" title="Napoleon Solo" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><span class="poster-name">Napoleon Solo</span> <span class="poster-date">said on the 2nd Mar, 2009</span> <button type="button" class="comment-like" rel="360543">0</button></a></h3>	
+<p >That grinds your gears?<br />
+<br />
+Shit mate, you need to unwind a bit if that gets you going. Go get laid or something.<br />
+<br />
+Initially I only said "lolz@survivor", yes it amused me. Not pendantic at all, just an aside giggle at getting the name wrong (much as I would if someone referred to the classic John Lennon song, Imagination). Sorry you got your panties in a twist over it. Oh and yes it is their biggest single of the past few years. And yes it RAISES AN EYEBROW. Hardly excessive is it. After reading reviews such as The Prodigy's Melbourne show in which the Sydney setlist was reviewed...or even the other NIN review in which apparently the highlight was the song that wasn't even played...I feel it's fair to say I will be overly critical from now on and skeptical that some reviewers are just bullshitting.<br />
+<br />
+HOWEVER I already stated that it isn't the case here.<br />
+<br />
+My main note was the differing opinion in regards to how the band were following the 45min break, which I simply referred to as odd (didn't say he was wrong).<br />
+<br />
+Everyone is so wound up here. Cheer up, guys.<br />
+<br />
+Coming from the guy the gets piffed over a song title.<br />
+<br />
+Comparing a shit NIN track to a wellknown John Lennon classic almost inspired an eyebrow raise over here.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><img data-original="http://1.i.f.tsatic.net/default/placeholder.jpg" alt="Stebby" title="Stebby" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><span class="poster-name">Stebby</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360551">0</button></a></h3>	
+<p >Coming from the guy the gets piffed over a song title.<br />
+<br />
+Comparing a shit NIN track to a wellknown John Lennon classic almost inspired an eyebrow raise over here.<br />
+<br />
+"lolz@survivor" = "piffed over a song title"?<br />
+<br />
+Shit, I will never chuckle again.<br />
+<br />
+Acting obtuse is fun, ay. Let's all try keep our eyebrows in check, ok.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><img data-original="http://ic.f.tsatic-cdn.net/1313/75_75/7d942_1313114.jpg" alt="Napoleon Solo" title="Napoleon Solo" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><span class="poster-name">Napoleon Solo</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360558">0</button></a></h3>	
+<p >"lolz@survivor" = "piffed over a song title"?<br />
+<br />
+Shit, I will never chuckle again.<br />
+<br />
+Acting obtuse is fun, ay. Let's all try keep our eyebrows in check, ok.<br />
+<br />
+Just leave the lolz behind at myspace. Why would anyone care that you had a giggle over a song title?</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/icutmyownhair" rel="4774"><img data-original="http://ic.f.tsatic-cdn.net/845/75_75/641cf_845541.jpg" alt="icutmyownhair" title="icutmyownhair" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/icutmyownhair" rel="4774"><span class="poster-name">icutmyownhair</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360562">0</button></a></h3>	
+<p >"lolz@survivor" = "piffed over a song title"?<br />
+<br />
+Shit, I will never chuckle again.<br />
+<br />
+Acting obtuse is fun, ay. Let's all try keep our eyebrows in check, ok.<br />
+<br />
+You were questioning the integrity of an article purely because of a typo.  Perhaps you're not splitting hairs and it's just that your pantyhose is chafing you?</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Braveheart81" rel="32447"><img data-original="http://ic.f.tsatic-cdn.net/1128/75_75/d7854_1128171.jpg" alt="Braveheart81" title="Braveheart81" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Braveheart81" rel="32447"><span class="poster-name">Braveheart81</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360570">0</button></a></h3>	
+<p >I thought the best songs on the night were The Fail, The Wrecked, The Hand That Bleeds and Head Like a Bowl. Survivor was alright too.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/saimagizzle" rel="10186"><img data-original="http://1.i.f.tsatic.net/default/placeholder.jpg" alt="saimagizzle" title="saimagizzle" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/saimagizzle" rel="10186"><span class="poster-name">saimagizzle</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360573">0</button></a></h3>	
+<p >Song title fuckups happen.</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><img data-original="http://1.i.f.tsatic.net/default/placeholder.jpg" alt="Stebby" title="Stebby" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><span class="poster-name">Stebby</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360595">0</button></a></h3>	
+<p ><br />
+<br />
+Um. Wrong.<br />
+<br />
+As I've already said, it's the result of other reviews that have made me skeptical, and why I ever raised my big sexy eyebrow while reading this review. I already said (twice) there was nothing wrong with the "integrity" of this particular review. In fact I said that before you even first posted anything in this thread.<br />
+<br />
+But please. Continue if you must. Apparently we all want to see just how big a proportion something can get blown out of. I suppose I can just keep running these circles if it keeps me from working. ;)<br />
+<br />
+And please someone post something to at least raise my other eyebrow, it is getting lonely.<br />
+<br />
+<br />
+<br />
+Exactly. Fuck. lolz@allthis (uh oh....)</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/dream_brother" rel="24992"><img data-original="http://ic.f.tsatic-cdn.net/1300/75_75/9b38c_1300491.jpg" alt="dream_brother" title="dream_brother" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/dream_brother" rel="24992"><span class="poster-name">dream_brother</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360599">0</button></a></h3>	
+<p >AND WE ARE GOING TO GET MARRIED ON TOPP OF A MOUNTAIN! AND YOU (Stebby) WON'T BE INVITED!</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><img data-original="http://ic.f.tsatic-cdn.net/1313/75_75/7d942_1313114.jpg" alt="Napoleon Solo" title="Napoleon Solo" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><span class="poster-name">Napoleon Solo</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360604">0</button></a></h3>	
+<p >Um. Wrong.<br />
+<br />
+As I've already said, it's the result of other reviews that have made me skeptical, and why I ever raised my big sexy eyebrow while reading this review. I already said (twice) there was nothing wrong with the "integrity" of this particular review. In fact I said that before you even first posted anything in this thread.<br />
+<br />
+But please. Continue if you must. Apparently we all want to see just how big a proportion something can get blown out of. I suppose I can just keep running these circles if it keeps me from working. ;)<br />
+<br />
+And please someone post something to at least raise my other eyebrow, it is getting lonely.<br />
+<br />
+<br />
+<br />
+Exactly. Fuck. lolz@allthis (uh oh....)<br />
+<br />
+http://img.photobucket.com/albums/v688/mccheeseburger/lolz4lyfe.gif</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><img data-original="http://1.i.f.tsatic.net/default/placeholder.jpg" alt="Stebby" title="Stebby" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Stebby" rel="49599"><span class="poster-name">Stebby</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360611">0</button></a></h3>	
+<p ><br />
+<br />
+LMAO! :)<br />
+<br />
+Almost spat my drink out on the desk..</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><img data-original="http://ic.f.tsatic-cdn.net/1313/75_75/7d942_1313114.jpg" alt="Napoleon Solo" title="Napoleon Solo" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/Napoleon Solo" rel="3100"><span class="poster-name">Napoleon Solo</span> <span class="poster-date">said on the 3rd Mar, 2009</span> <button type="button" class="comment-like" rel="360623">0</button></a></h3>	
+<p >LMAO! :)<br />
+<br />
+Almost spat my drink out on the desk..<br />
+<br />
+http://members.gamedev.net/vilio/LMAO.jpg</p>															
+</div>								    
+<div class="comment   clearfix"  itemscope  itemtype="http://schema.org/UserComment" >
+<span class="comment-item"><a   class="infocard-trigger infocard-user-trigger" href="http://www.fasterlouder.com.au/people/scarypowers" rel="3699"><img data-original="http://ic.f.tsatic-cdn.net/6/75_75/1c4fc_6767.jpg" alt="scarypowers" title="scarypowers" width="75" height="75" src="http://i.f.tsatic-cdn.net/default/spacer.gif" /></a></span>												<h3><a   href="http://www.fasterlouder.com.au/people/scarypowers" rel="3699"><span class="poster-name">scarypowers</span> <span class="poster-date">said on the 11th Mar, 2009</span> <button type="button" class="comment-like" rel="365434">0</button></a></h3>	
+<p >great review mate.</p>															
+</div>					
+</div>
+</div>
+</div>			
+</div>
+<!-- Side Bar -->
+<div id="sideBar">
+<span id="advert-island-1" class="advert advert-island" title="300x600,300x250"></span>
+<div id="breakout-popular" class="clearfix breakout ">
+<div class="breakout-header clearfix">
+<h2 >Most Popular</h2>
+</div>
+<div id="breakout-popular-scroll" class="breakout-content breakout-content-scroll clearfix">            <div class="customScrollBox"><div class="container"><div class="content">                        <ul class="list list-sml popular popular-articles">
+<li class="odd most-popular">
+<a href="/news/42118/7-500-pills-were-seized-in-Brisbane-before-Future-Music-Festival">
+<span class="item-title">7,500 pills were seized in Brisbane before Future Music Festival <span class="views">2480</span></span>
+</a>
+</li>	
+<li class="even most-popular">
+<a href="/news/42116/The-first-band-for-Soundwave-2016-has-already-been-confirmed">
+<span class="item-title">The first band for Soundwave 2016 has already been confirmed <span class="views">9258</span></span>
+</a>
+</li>	
+<li class="odd most-popular">
+<a href="/news/41762/Does-the-Fuji-Rock-lineup-offer-any-clues-for-Splendour-in-the-Grass-2015">
+<span class="item-title">Does the Fuji Rock lineup offer any clues for Splendour in the Grass 2015? <span class="views">16172</span></span>
+</a>
+</li>	
+<li class="even most-popular">
+<a href="/news/42113/Frontier-Touring-have-responded-to-AJ-Maddahs-comments-about-Foo-Fighters-Adelaide-show">
+<span class="item-title">Frontier Touring have responded to AJ Maddah's comments about Foo Fighters’ Adelaide show <span class="views">12848</span></span>
+</a>
+</li>	
+<li class="odd most-popular">
+<a href="/news/42103/Nickelback-have-gone-disco">
+<span class="item-title">Nickelback have gone disco <span class="views">21750</span></span>
+</a>
+</li>	
+<li class="even most-popular">
+<a href="/news/42098/Soundwave-promoter-AJ-Maddah-takes-a-shot-at-Dave-Grohl-after-Adelaide-gig">
+<span class="item-title">Soundwave promoter AJ Maddah takes a shot at Dave Grohl after Adelaide gig <span class="views">42286</span></span>
+</a>
+</li>	
+<li class="odd most-popular">
+<a href="/news/42099/Most-of-the-Foo-Fighters-will-play-a-free-gig-this-Friday">
+<span class="item-title">Most of the Foo Fighters will play a free gig this Friday <span class="views">8570</span></span>
+</a>
+</li>	
+<li class="even most-popular">
+<a href="/news/42067/6-things-we-learnt-at-Future-Music-Festival-Sydney">
+<span class="item-title">6 things we learnt at Future Music Festival Sydney <span class="views">3632</span></span>
+</a>
+</li>	
+<li class="odd most-popular">
+<a href="/news/42119/MIA-releases-new-song-teases-next-album">
+<span class="item-title">M.I.A. releases new song, teases next album <span class="views">268</span></span>
+</a>
+</li>	
+<li class="even most-popular">
+<a href="/news/42114/Alison-Wonderland-is-launching-her-debut-album-with-a-series-of-parties-in-strip-clubs">
+<span class="item-title">Alison Wonderland is launching her debut album with a series of parties in strip clubs <span class="views">3386</span></span>
+</a>
+</li>	
+<li class="odd most-popular">
+<a href="/news/42044/Pros-and-cons-of-seeing-Foo-Fighters-in-2015">
+<span class="item-title">Pros and cons of seeing Foo Fighters in 2015 <span class="views">18732</span></span>
+</a>
+</li>	
+<li class="even most-popular">
+<a href="/features/42060/BADBADNOTGOOD-on-Ghostface-Killah-Drake-and-Frank-Ocean">
+<span class="item-title">BADBADNOTGOOD on Ghostface Killah, Drake and Frank Ocean <span class="views">2014</span></span>
+</a>
+</li>	
+<li class="odd most-popular">
+<a href="/news/42117/Kendrick-Lamars-new-album-will-be-out-this-month">
+<span class="item-title">Kendrick Lamar's new album will be out this month <span class="views">554</span></span>
+</a>
+</li>	
+<li class="even most-popular">
+<a href="/news/42075/7-things-we-learnt-at-Soundwave-Festival-Sydney">
+<span class="item-title">7 things we learnt at Soundwave Festival Sydney  <span class="views">22800</span></span>
+</a>
+</li>	
+<li class="odd most-popular">
+<a href="/news/41860/8-reasons-Guy-Sebastian-wasnt-the-best-choice-for-Eurovision-2015">
+<span class="item-title">8 reasons Guy Sebastian wasn't the best choice for Eurovision 2015 <span class="views">15680</span></span>
+</a>
+</li>
+</ul>
+</div></div><div class="dragger_container"><div class="dragger">&#9618;</div></div></div>
+</div>
+</div>
+<script type="text/javascript">
+            var scrollID = 'popular';
+            
+            $("#breakout-" + (scrollID) ).mCustomScrollbar("vertical",400,"easeOutCirc",1.05,"fixed","yes","no",0);
+            
+        </script>
+<span id="advert-island-2" class="advert advert-island" title="300x600,300x250"></span>
+<div id="breakout-subscribe" class="clearfix breakout ">
+<div class="breakout-header clearfix">
+<h2 >Connect with FasterLouder</h2>
+</div>
+<div  class="breakout-content clearfix">                                    <form method="get" action="/p/newsletter/index.php">
+<fieldset>
+<label for="email">Sign up for the <span>weekly newsletter</span></label>
+<input type="text" id="email" name="email" />
+<button type="submit" value="go">submit</button>
+</fieldset>
+<div class="hidden">
+<input type="hidden" name="action" value="add" />
+<input type="hidden" name="sub" value="Subscribe" />
+</div>
+</form>
+<div class="subscribe-options">
+<ul>        
+<li class="subscribe-option subscribe-option-facebook">
+<a href="http://www.facebook.com/FasterLouder" target="_blank" class="facebook">Facebook</a><span>FL on Facebook</span>
+<div class="fb"><iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FFasterLouder&amp;width=70&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=30" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:30px; width: 70px; position: relative; top: 9px;" allowTransparency="true"></iframe></div>
+<div class="clearfix"></div>            
+</li>       
+<li class="subscribe-option subscribe-option-twitter">
+<a href="http://twitter.com/FasterLouder" target="_blank" class="icon">Follow @fasterlouder</a>
+<div class="clearfix"></div>
+</li>       
+</ul>
+</div>
+<div class="foxtel">
+<a href="http://www.foxtel.com.au/whats-on/channels/air/default.htm" target="_blank"><strong>Tune into FasterLouder Radio</strong><br />Foxtel Air 855</a>
+</div>
+</div>
+</div>
+</div>
+<div class="cssClear"></div>
+</div>
+<div class="upNext" id="up_next" style="display:none;">
+<a href="#" class="close" onclick="$('#up_next').fadeOut('fast'); up_next_closed = true; return false;">x</a>
+<div>
+<span>FasterLouder RECOMMENDS</span>
+<a class="title" href="/news/42170/Soundwave-fined-10-000-for-breaking-noise-restrictions-in-Adelaide-again">Soundwave fined $10,000 for breaking noise restrictions in Adelaide, again</a>
+
+<div class="article-stat">
+<meta itemprop="interactionCount" content="UserComments:4"/>
+<meta itemprop="interactionCount" content="UserLikes:0" />
+<meta itemprop="interactionCount" content="UserPageVisits:" />
+<ul>
+<li title="Comments" class="comment">4</li>
+</ul>
+</div>
+</div>
+</div>        </div>
+<div id="site-footer" class="clearfix">
+<div id="site-footer-tools">
+<!-- Home and Breadcrumb -->
+<ul id="site-footer-breadcrumbs">
+<li id="crumb-home">
+<a href="http://www.fasterlouder.com.au/">
+Home
+</a>
+</li>
+<li id="crumb-primary" class="breadcrumb">
+<a href="/reviews/events">Gig Reviews</a>
+</li>
+</ul>
+<!-- RSS and Back to Top -->
+<ul id="site-footer-go">
+<li id="go-rss">
+<a href="http://www.fasterlouder.com.au/rss/feed.xml">RSS Feeds</a>
+</li>
+<li id="go-top">
+<a href="#container">
+Back to Top
+</a>
+</li>
+</ul>
+</div>
+<span id="advert-leaderboard-2" class="advert advert-leaderboard"  title="728x90,960x150"></span>
+<div id="site-footer-links" class="clearfix">
+<h3 id="site-footer-logo"><a href="/">fasterlouder</a></h3>
+<div id="site-footer-navigation">
+<ul id="community-navigation">
+<li><a href="http://www.fasterlouder.com.au/spy">Realtime Spy</a></li>
+<li><a href="http://www.fasterlouder.com.au/about#our-community">Contribute</a></li>
+<li><a href="http://www.fasterlouder.com.au/about">About FasterLouder</a></li>
+<li><a href="http://www.fasterlouder.com.au/about/contact-us">Contact Us</a></li>
+<li><a href="http://www.fasterlouder.com.au/about/privacy-statement">Privacy Policy</a></li>
+<li><a href="http://www.fasterlouder.com.au/about/community-guidelines">Community Guidelines</a></li>
+<li><a href="http://www.fasterlouder.com.au/about#advertising-with-us">Advertising with us</a></li>
+<li><a href="http://www.fasterlouder.com.au/sitemap.html">Sitemap</a></li>
+</ul>
+<ul id="site-network-navigation">
+<li>A Member of <a href="http://www.thesoundalliance.net/" target="_blank">The Sound Alliance</a></li>
+<li>All Rights Reserved</li>
+<li>&copy; 2015 FasterLouder Pty Ltd</li>
+<li><a href="http://www.inthemix.com.au" target="_blank">inthemix.com.au</a></li>
+<li><a href="http://www.samesame.com.au" target="_blank">SameSame.com.au</a></li>
+</ul>
+<ul id="site-change-city-navigation">
+<li>Change Your City:</li>
+<li>
+<a href="/change-city?city%3D1%26url%3D%2Freviews%2Fevents%2F17237%2FNine-Inch-Nails-Hordern-Pavilion-Sydney-240209">Sydney</a>,
+<a href="/change-city?city%3D2%26url%3D%2Freviews%2Fevents%2F17237%2FNine-Inch-Nails-Hordern-Pavilion-Sydney-240209">Melbourne</a>,
+<a href="/change-city?city%3D3%26url%3D%2Freviews%2Fevents%2F17237%2FNine-Inch-Nails-Hordern-Pavilion-Sydney-240209">Canberra</a>,
+<a href="/change-city?city%3D4%26url%3D%2Freviews%2Fevents%2F17237%2FNine-Inch-Nails-Hordern-Pavilion-Sydney-240209">Brisbane / Gold Coast</a>,
+<a href="/change-city?city%3D5%26url%3D%2Freviews%2Fevents%2F17237%2FNine-Inch-Nails-Hordern-Pavilion-Sydney-240209">Adelaide</a>,
+<a href="/change-city?city=6%26url%3D%2Freviews%2Fevents%2F17237%2FNine-Inch-Nails-Hordern-Pavilion-Sydney-240209">Perth</a>
+</li>
+</ul>	</div>
+</div>
+<ul id="side-tab" class="side-tab"><li>&nbsp;</li></ul>					
+<div id="manage-tools"></div>
+<div class="modal-container">
+<div class="login-options login-modal">
+<div class="login-option login-site">
+<h6>FasterLouder member?</h6>
+<p>If you've previously registered for a FasterLouder membership, enter your details now to login.</p>
+<form action="/login" method="post">
+<fieldset>
+<div class="login-site-username">
+<label>Username or Email</label>
+<input type="text" name="u_name" class="valid" />
+</div>
+<div class="login-site-password">
+<label>Password</label>
+<input type="password" name="u_pass" />
+</div>
+<div class="form-actions">
+<button type="submit" id="login-site-submit"><span>Sign In</span></button>
+</div>
+<div class="form-hidden">
+<input type="hidden" name="formAction" value="Login" />
+<input type="hidden" name="formModule" value="User" />
+<input type="hidden" name="url" value="/reviews/events/17237/Nine-Inch-Nails-Hordern-Pavilion-Sydney-240209" />
+</div>
+</fieldset>
+</form>
+<p class="login-site-forgotten login-helper">
+<strong>Having trouble?</strong>
+<a href="/forgotten">Recover your username or password</a>
+</p>
+<p class="login-site-signup login-helper">
+<strong>Need membership?</strong>
+<a href="/signup">Register a new membership now</a>
+</p>
+</div>			<div class="login-facebook login-option">
+<h6>Facebook user?</h6>
+<p>You can use your Facebook account to signup and login to the FasterLouder site. It's quick and easy. Just hit the button below and follow the prompts.</p>
+<div id="fb-button"><a class="fb-connect" href="http://www.fasterlouder.com.au/login/external/facebook?url=http://www.fasterlouder.com.au/reviews/events/17237/Nine-Inch-Nails-Hordern-Pavilion-Sydney-240209">Facebook Connect</a></div> 
+</div>		
+</div></div>
+<div id="fb-root"></div>
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2012 Nielsen Online -->
+<script type="text/javascript" src="//secure-au.imrworldwide.com/v60.js">
+</script>
+<script type="text/javascript">
+    var pvar = { cid: "mcn", content: "0", server:"secure-au" };
+    var trac = nol_t(pvar);
+    trac.record().post();
+</script>
+<noscript>
+<div class="hidden">
+<img src="//secure-au.imrworldwide.com/cgibin/m?ci=cogs&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" />
+</div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 --> 
+<!-- //START - Record Visitor Stats -->
+<script>
+recordPageVisit( 'Content;View', '17237' );
+</script>
+<!-- //END - Record Visitor Stats -->
+<script type="text/javascript">
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 6429;
+    _sf_async_config.domain = 'fasterlouder.com.au';
+    _sf_async_config.sections = 'Event Reviews'; 
+    _sf_async_config.authors = 'Angus Paterson'; 
+    /** CONFIGURATION END **/	
+	
+	
+		if(_sf_startpt) {   
+		    (function(){
+		      function loadChartbeat() {
+		        window._sf_endpt=(new Date()).getTime();
+		        var e = document.createElement('script');
+		        e.setAttribute('language', 'javascript');
+		        e.setAttribute('type', 'text/javascript');
+		        e.setAttribute('src',
+		           (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+		           "static.chartbeat.com/js/chartbeat.js");
+		        document.body.appendChild(e);
+		      }
+		      var oldonload = window.onload;
+		      window.onload = (typeof window.onload != 'function') ?
+		         loadChartbeat : function() { oldonload(); loadChartbeat(); };
+		    })();
+		}
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    
+    ga('create', 'UA-774333-1', 'fasterlouder.com.au');
+    
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+    
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PGSP29"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PGSP29');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+<script src="http://i.po.st/static/v3/post-widget.js#publisherKey=9f908pg645pu3178se9u&retina=true" type="text/javascript"></script>
+<script type="text/javascript">
+
+            
+
+        // Facebook
+        window.fbAsyncInit = function() {
+            // Facebook Initiate
+            FB.init({
+                appId  : externalAppId,
+                status : true, // check login status
+                cookie : true, // enable cookies to allow the server to access the session
+                xfbml  : true, // parse XFBML
+                oauth   : true  // enable OAuth 2.0 Functionality
+            });
+
+            // Track FB likes
+            FB.Event.subscribe('edge.create', function(targetUrl) {
+                _gaq.push(['_setAccount', gaSiteID],['_trackSocial', 'facebook', 'like', targetUrl]);
+            });
+
+            // Track FB Unlikes
+            FB.Event.subscribe('edge.remove', function(targetUrl) {
+                _gaq.push(['_setAccount', gaSiteID],['_trackSocial', 'facebook', 'unlike', targetUrl]);
+            });
+
+        };
+
+        (function() {
+            var e = document.createElement('script');
+            e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+            e.async = true;
+            document.getElementById('fb-root').appendChild(e);
+        }());
+
+
+    
+    
+    (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+
+        document.jsItemTypeName = "";
+    document.jsItemType = "Content";
+    document.jsItemID = "17237";
+    document.jsCurrentAction = "View";
+    document.jsCurrentTheme = "reviews_gigs";
+    document.articleCommentCount = '50';
+    document.moduleName = 'reviews';
+    document.UserLocale = '';
+
+    /* getting viewport width */
+    var responsive_viewport = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+    // Facebook Connect - Redirect - var is used in webroot default.js
+    var fb_redirect = "http://www.fasterlouder.com.au/login/external/facebook?url=http://www.fasterlouder.com.au/reviews/events/17237/Nine-Inch-Nails-Hordern-Pavilion-Sydney-240209"
+
+    // News Beat - set start time var
+    var _sf_startpt = (new Date()).getTime();
+
+
+    // Advert Scripts
+    // Begin MCN ad code
+var siteurl = "fasterlouder.com.au",
+sitename = "fasterlouder",
+section = "reviews/events",
+native = "",
+documentformat = "article",
+topics = ['Nine Inch Nails','Hordern Pavilion','Soundwave Festival',];
+
+if (responsive_viewport < 768 ){
+
+var device = "Mobile"
+
+    $('#advert-leaderboard-1').writeCapture().html('<span class="mcnamf" title="320x50,300x50"></span>');
+    $('#advert-leaderboard-2').writeCapture().html('<span class="mcnamf" title="320x50,300x50"></span>');
+    $('#advert-interstitial-1').writeCapture().html('<span class="mcnamf" title="600x700"></span>');
+    $('#advert-island-1').writeCapture().html('<span class="mcnamf" title="300x250"></span>');
+    $('#advert-gallery-1').writeCapture().html('<span class="mcnamf" title="320x50,300x50"></span>');
+
+} else {
+
+var device = "Desktop"
+
+    $('#advert-leaderboard-1').writeCapture().html('<span class="mcnamf" title="728x90,960x150,970x250,960x250"></span>');
+    $('#advert-leaderboard-2').writeCapture().html('<span class="mcnamf" title="728x90,960x150"></span>');
+            $('#advert-island-1').writeCapture().html('<span class="mcnamf" title="300x600,300x250"></span>');
+        $('#advert-island-2').writeCapture().html('<span class="mcnamf" title="300x600,300x250"></span>');
+    $('#advert-interstitial-1').writeCapture().html('<span class="mcnamf" title="640x480,990x40"></span>');
+
+
+}
+
+
+    addLoadEvent (function () {
+    window._mcn={};_mcn.config=[];
+    _mcn.config.push(function(){
+    _mcn.publisher(sitename); // the site
+    _mcn.amf.targeting("device",device); // the device - determined by the view port width
+    _mcn.amf.targeting("section", section); // site sections - can be more than one
+    _mcn.amf.targeting("native", native); // native advertiser
+    _mcn.amf.targeting("documentformat", documentformat); // the format of the document, ie: Gallery, List, Article, Event
+    if (referrer === '' && typeof referrerSplit[2] == 'undefined' || referrerSplit[2].indexOf("") === -1){_mcn.amf.targeting("subsection", "entrypoint");}; // entry point - only viewed when a user visits the site organically
+    _mcn.amf.targeting("topics", topics); // topics - also known as keywords
+    });
+
+    (function(){var e=document.createElement("script"),protocol = "https:" == document.location.protocol ? "https:" : "http:";e.async=true;e.src=protocol+"//medrx.sensis.com.au/mcn/cube.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n);})();
+    });
+
+
+
+
+
+// End MCN ad code
+
+</script>        </div>
+</div>
+</div>
+</body>
+</html>
