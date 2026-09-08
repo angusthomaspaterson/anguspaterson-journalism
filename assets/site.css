@@ -212,3 +212,11 @@ figure.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 @media (prefers-reduced-motion:reduce){
   .tile img{transition:none}
 }
+
+/* A way back up the tree: article -> its category, category -> the homepage grid.
+   Reuses the kicker's size and colour so it reads as the same piece of furniture. */
+.backlink{display:inline-flex;align-items:center;gap:.4em}
+.backlink span{font-size:1.15em;line-height:1;transition:transform .15s ease}
+.backlink:hover span,.backlink:focus-visible span{transform:translateX(-.15em)}
+.listing-head .kicker{margin-bottom:.6rem}
+@media (prefers-reduced-motion:reduce){.backlink span{transition:none}}

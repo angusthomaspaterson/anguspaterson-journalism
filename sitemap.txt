@@ -1,4 +1,9 @@
 
+all-work/print-interviews/dollkraut-djbroadcast/
+all-work/print-interviews/themba-interview/
+all-work/print-interviews/jayda-g-interview/
+all-work/print-features/ultra-europe-djmag/
+all-work/print-features/future-trance-djmag/
 all-work/promos-bios/discreet-circuit-artist-bio/
 all-work/promos-bios/monika-kruse-artist-bio/
 all-work/promos-bios/lollino-artist-bio/
@@ -100,7 +105,7 @@ all-work/online-reviews/various-anjunabeats-vol-9-mixed-by-above-beyond/
 all-work/online-news/deepchild-speaks-out-on-the-personal-battle-behind-his-new-lp/
 all-work/print-interviews/armin-van-buuren-3d-world-cover-story/
 all-work/online-news/king-unique-on-the-great-dance-divide-thats-why-we-ended-up-with-guetta/
-all-work/online-news/john-askew-weighs-in-on-the-trance-scene-i-e-viper%e2%80%99s-nest-of-cnts/
+all-work/online-news/john-askew-weighs-in-on-the-trance-scene-i-e-vipers-nest-of-cnts/
 all-work/online-reviews/tech-review-sound-of-berlin-app/
 all-work/online-reviews/way-out-west-we-love-machine/
 all-work/feature-writing/should-we-give-trance-a-chance/
@@ -135,6 +140,7 @@ all-work/mobile-campaigns/dj-mag-electroprogressive-november-2014/
 all-work/mobile-campaigns/dj-mag-electroprogressive-january-2014/
 all-work/mobile-campaigns/dj-mag-electroprogressive-march-2015/
 all-work/print-interviews/trentemoller-a-quantum-leap/
+all-work/print-features/woodedcityreview/
 all-work/print-interviews/dj-mag-top-100-cover/
 all-work/print-interviews/dj-mag-dimitri-vegas-like-mike-cover-story/
 all-work/print-interviews/dj-mag-anja-schnieder-cover-story/
