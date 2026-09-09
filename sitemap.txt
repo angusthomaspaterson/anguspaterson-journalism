@@ -1,4 +1,8 @@
 
+all-work/event-coverage/nine-inch-nails-hordern-pavilion-sydney-240209/
+all-work/event-coverage/bjork-opera-house-forecourt-sydney-230108/
+all-work/event-coverage/nine-inch-nails-the-hordern-sydney-160907/
+all-work/artists-interviews/underworld-back-from-underneath-the-radar/
 all-work/print-interviews/dollkraut-djbroadcast/
 all-work/print-interviews/themba-interview/
 all-work/print-interviews/jayda-g-interview/

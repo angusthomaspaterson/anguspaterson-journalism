@@ -94,6 +94,13 @@ a:hover,a:focus-visible{color:var(--accent-dark);text-decoration:underline}
 figure.lead{margin:0 auto 2.5rem;width:min(52rem,calc(100vw - 3rem))}
 figure.lead img{width:100%}
 
+/* The inthemix-era tiles are 620x722 rotated screenshot mockups. Held to the full
+   measure they were upscaled by a third and stood almost 1000px tall; at their own
+   scale they read as the designed artefact they are. */
+figure.lead.mockup{width:min(26rem,calc(100vw - 3rem))}
+/* not named .tile: that is the homepage grid cell, which crops to 62.5% and
+   object-fits its image, and the class would have been inherited here. */
+
 .byline .pub{color:var(--ink);font-weight:600}
 
 /* ---------- article ---------- */
@@ -132,8 +139,21 @@ figure{margin:2.25rem 0;max-width:none;width:100%}
 figure img{width:100%;background:var(--ground)}
 figure a{box-shadow:none}
 figcaption{margin-top:.6rem;font-size:.8125rem;line-height:1.45;color:var(--muted)}
-figure.video{position:relative;padding-top:56.25%;height:0}
-figure.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+/* Two different things, which the old single rule conflated. figure.embed holds a
+   third-party iframe with no intrinsic size, so it is held to 16:9 by aspect-ratio. A padding-top percentage would not do:
+   it resolves against the containing block, not the figure, and these figures break
+   out wider than the text measure. figure.video
+   holds a local <video> that carries its own dimensions: giving that the zero-height
+   box left an empty gap above every player. */
+figure.embed{position:relative;aspect-ratio:16/9}
+figure.embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+figure.video video{width:100%;height:auto;background:#000}
+
+/* WordPress-era section breaks. Kept, since they are the author's own divisions, but
+   set in the page's own terms rather than the browser default. Where one sits directly
+   above a heading the heading already does the work, so the rule steps aside. */
+.prose hr{border:0;border-top:1px solid var(--rule);margin:2.75rem 0}
+.prose hr:has(+ h2),.prose hr:has(+ h3){display:none}
 
 .image-missing{margin:2rem 0;padding:1.1rem 1.25rem;background:var(--ground);
   border:1px dashed #d6d6d2;color:var(--muted);font-size:.875rem;text-align:center}
