@@ -98,6 +98,10 @@ figure.lead img{width:100%}
    measure they were upscaled by a third and stood almost 1000px tall; at their own
    scale they read as the designed artefact they are. */
 figure.lead.mockup{width:min(26rem,calc(100vw - 3rem))}
+/* Ibiza Voice published small pictures: 390 to 450px, where the standard hero is 832.
+   Held to the full measure they upscale twofold and go soft against the type, so they
+   are given the same narrow hero as the screenshot tiles, at native scale. */
+figure.lead.narrow{width:min(26rem,calc(100vw - 3rem))}
 /* not named .tile: that is the homepage grid cell, which crops to 62.5% and
    object-fits its image, and the class would have been inherited here. */
 
