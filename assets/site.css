@@ -149,6 +149,10 @@ figure.embed{position:relative;aspect-ratio:16/9}
 figure.embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 figure.video video{width:100%;height:auto;background:#000}
 
+/* Photo credits that came in as the caption list of a flattened inthemix carousel.
+   Set like a figcaption rather than body copy, since that is what they are. */
+.prose p.credit{margin-top:-1.25rem;font-size:.8125rem;line-height:1.45;color:var(--muted)}
+
 /* WordPress-era section breaks. Kept, since they are the author's own divisions, but
    set in the page's own terms rather than the browser default. Where one sits directly
    above a heading the heading already does the work, so the rule steps aside. */
