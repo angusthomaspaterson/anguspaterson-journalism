@@ -157,6 +157,58 @@ figure.video video{width:100%;height:auto;background:#000}
    Set like a figcaption rather than body copy, since that is what they are. */
 .prose p.credit{margin-top:-1.25rem;font-size:.8125rem;line-height:1.45;color:var(--muted)}
 
+/* ---------- Ibiza Voice's own typographic marks ----------
+   Ibiza Voice marked its copy up heavily, and the meaning of those marks is part of
+   how the pieces read: the interview question in bold, names and record titles set
+   off from the sentence around them, a drop cap opening the piece, a pull quote
+   floated beside the answer it comes from, tracklists, and a metadata block closing
+   every review. The classes are carried over; the original stylesheet's blue and
+   green boxes are not. */
+.prose .iv-q{font-weight:700;color:var(--ink)}
+.prose .iv-work{font-weight:600;color:var(--ink)}
+.prose .iv-name{font-weight:600}
+.prose .iv-speaker{font-weight:700;color:var(--ink)}
+
+.prose .iv-dropcap{float:left;margin:.3rem .5rem 0 0;font-size:3.25rem;line-height:.72;
+  font-weight:700;color:var(--accent-dark)}
+
+/* The pull quote floats where there is room for it to and stacks where there is not.
+   It repeats a line from the answer beside it, which is how it ran originally. */
+.prose .iv-pull{display:block;margin:.2rem 0 1.1rem;padding-left:1rem;
+  border-left:3px solid var(--accent);font-size:1.1875rem;line-height:1.4;
+  font-weight:600;color:var(--ink)}
+@media (min-width:48rem){
+  .prose .iv-pull-right{float:right;width:42%;margin:.3rem 0 1rem 1.75rem}
+  .prose .iv-pull-left{float:left;width:42%;margin:.3rem 1.75rem 1rem 0;
+    padding:0 1rem 0 0;border-left:0;border-right:3px solid var(--accent)}
+}
+.prose figure{clear:both}
+
+.prose .iv-subhead{display:block;margin:.5rem 0 .35rem;text-align:center;
+  font-size:.9375rem;letter-spacing:.09em;text-transform:uppercase;
+  font-weight:700;color:var(--ink)}
+.prose .iv-cent{display:block;text-align:center}
+
+.prose .iv-track{display:block;font-size:.9375rem;line-height:1.7}
+.prose .iv-track-head{display:block;margin:.9rem 0 .2rem;font-weight:700;color:var(--ink)}
+
+/* The review's own metadata panel: artist, title, label, tracklist, rating. */
+.prose .iv-rev{padding:1.25rem 1.4rem;background:var(--ground);border:1px solid var(--rule);
+  font-size:.9375rem;line-height:1.6}
+.prose .iv-rev-line{display:block;font-weight:700;color:var(--ink);line-height:1.55}
+/* The panel's own line breaks are redundant once its spans are blocks, and left
+   gaps where the original had none. */
+.prose .iv-rev br{display:none}
+.prose .iv-rev a{display:block;width:max-content;max-width:100%}
+.prose .iv-rev a:first-of-type{margin-top:.9rem}
+.prose .iv-rate-label{display:inline-block;margin-top:.9rem;font-weight:700;color:var(--ink)}
+.prose .iv-rate-score{font-weight:700;color:var(--accent-dark)}
+
+/* SoundCloud has no intrinsic aspect ratio: a single track is a fixed 166px strip and
+   a set needs room for its tracklist, so neither can use the 16:9 rule above. */
+figure.embed.audio{aspect-ratio:auto;height:166px}
+figure.embed.audio-set{height:420px}
+
 /* WordPress-era section breaks. Kept, since they are the author's own divisions, but
    set in the page's own terms rather than the browser default. Where one sits directly
    above a heading the heading already does the work, so the rule steps aside. */
