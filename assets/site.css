@@ -212,6 +212,8 @@ figure.video video{width:100%;height:auto;background:#000}
    a set needs room for its tracklist, so neither can use the 16:9 rule above. */
 figure.embed.audio{aspect-ratio:auto;height:166px}
 figure.embed.audio-set{height:420px}
+/* Spotify's own embed is 352px for a track, album or playlist. */
+figure.embed.spotify{height:352px}
 
 /* WordPress-era section breaks. Kept, since they are the author's own divisions, but
    set in the page's own terms rather than the browser default. Where one sits directly
