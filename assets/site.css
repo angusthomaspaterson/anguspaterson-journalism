@@ -164,7 +164,11 @@ figure.video video{width:100%;height:auto;background:#000}
    floated beside the answer it comes from, tracklists, and a metadata block closing
    every review. The classes are carried over; the original stylesheet's blue and
    green boxes are not. */
-.prose .iv-q{font-weight:700;color:var(--ink)}
+/* The interview question. Ibiza Voice ran it inline with a line break before the
+   answer, which reads as part of the same paragraph. Set as a block instead: same
+   size as the body, sitting nearer the answer it belongs to than the one above. */
+.prose .iv-q{display:block;margin:.55rem 0 .35rem;font-weight:700;color:var(--ink)}
+.prose p:first-child .iv-q{margin-top:0}
 .prose .iv-work{font-weight:600;color:var(--ink)}
 .prose .iv-name{font-weight:600}
 .prose .iv-speaker{font-weight:700;color:var(--ink)}
@@ -212,6 +216,12 @@ figure.embed.audio-set{height:420px}
 /* WordPress-era section breaks. Kept, since they are the author's own divisions, but
    set in the page's own terms rather than the browser default. Where one sits directly
    above a heading the heading already does the work, so the rule steps aside. */
+/* Run-in headings: the WordPress-era habit of opening a paragraph with a bold line
+   and a <br>. The break is gone from the markup, so this is what separates the
+   heading from its section. No size increase; the space does the work. */
+.prose p .runin{display:block;margin:1.15rem 0 .45rem;font-weight:700;color:var(--ink)}
+.prose p:first-child .runin{margin-top:0}
+
 .prose hr{border:0;border-top:1px solid var(--rule);margin:2.75rem 0}
 .prose hr:has(+ h2),.prose hr:has(+ h3){display:none}
 

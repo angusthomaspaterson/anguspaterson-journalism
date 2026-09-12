@@ -2,7 +2,7 @@
 REM Removes the Watergate Records piece from the repository.
 REM Unzipping an update adds and overwrites files; it cannot delete one, so this
 REM takes out the three folders that belonged to the page you asked to take down.
-REM Skip it if you have already run it once: it does nothing the second time.
+REM Skip it if you have already run it: it does nothing the second time.
 REM
 REM If Windows blocks it, right-click, Properties, tick Unblock, OK.
 cd /d "%~dp0"
