@@ -316,3 +316,6 @@ figure.embed.spotify{height:352px}
 .backlink span{font-size:1.15em;line-height:1;transition:transform .15s ease}
 .backlink:hover span,.backlink:focus-visible span{transform:translateX(-.15em)}
 @media (prefers-reduced-motion:reduce){.backlink span{transition:none}}
+/* deep archive: wide banner at the top of a piece that has no picture of its own */
+figure.lead.hero{margin:0 auto 2rem}
+figure.lead.hero img{width:100%;height:auto}
