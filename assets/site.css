@@ -319,3 +319,5 @@ figure.embed.spotify{height:352px}
 /* deep archive: wide banner at the top of a piece that has no picture of its own */
 figure.lead.hero{margin:0 auto 2rem}
 figure.lead.hero img{width:100%;height:auto}
+/* photographs inside a recovered article, shown at their own size */
+.prose figure.photo img{margin:0 auto}
